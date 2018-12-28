@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>中教智能官网</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- bookstrap核心样式文件-->
     <link  rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 
@@ -14,10 +16,17 @@
 
 </head>
 <body>
-
+<!--导航栏-->
 <nav class="navbar navbar-default" role="navigation">
     <div class="container-fluid">
         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
             <a  href="index.html"><img class="logo" src="img/logo.png"/></a>
         </div>
         <div>
@@ -76,7 +85,118 @@
         </div>
     </div>
 </nav>
+<!--轮播图-->
+
+<div id="myCarousel" class="carousel slide"  data-ride="carousel">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="img/index/banner-pic1.jpg" alt="First slide" >
+            <div class="carousel-caption">
+                <h1>少儿阅读大数据研究中心  </h1>
+                <h3>实现少儿阅读的个性化引领、服务和管理，提高少儿阅读能力和智力发展</h3>
+            </div>
+        </div>
+        <div class="item">
+            <img src="img/index/banner-pic2.jpg" alt="Second slide">
+            <div class="carousel-caption">
+                <h1>在书香味中长大，必将永远与书相伴 </h1>
+                <h3>Growing up in the fragrance of books will always be accompanied by books</h3>
+            </div>
+        </div>
+        <div class="item">
+            <img src="img/index/banner-pic3.jpg" alt="Third slide">
+            <div class="carousel-caption">
+                <h1>少儿阅读大数据研究中心  </h1>
+                <h3>实现少儿阅读的个性化引领、服务和管理，提高少儿阅读能力和智力发展</h3>
+            </div>
+        </div>
+        <div class="item">
+            <img src="img/index/banner-pic4.jpg" alt="Third slide">
+            <div class="carousel-caption">
+                <h1>小沙画，大艺术，梦想从沙画开始 </h1>
+                <h3>Small Sand Painting, Great Art, Dreams Begin with Sand Painting</h3>
+            </div>
+        </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<!--公司产品-->
+<div class="container ">
+    <p class="main-title">PRODUCT</p>
+    <h2>公司产品</h2>
+    <hr class="lessline">
+</div>
+<div class="row">
+
+    <div class="col-md-2 dd  ">
+          <a href="">
+        <img  src=" img/index/yuekongjian.jpg">
+        <h3>悅如水智慧阅读</h3>
+        <p class="contains">“悦如水”阅读空间以云计算、物联网等信息化技术为基础，以“悦如水”文化为核心
+            ，从少儿的阅读习惯、心理等特点出发，设计符合少儿阅读的空间。通过对室内空间划分、空间形态、色彩、装修与家具陈设，室内光源的布置（包括自然光与人工光）、室内气氛灯等趣味性的形态组合与变换，构成集感知体验与探索创造于一体的阅读空间。环境设计坚持以少儿为主，
+            调节少儿非智力因素影响以提高阅读认知水平，促进少儿的健康成长。</p>
+          </a>
+    </div>
+
+        <div class="col-md-2 dd  col-lg-offset-1">
+            <a href="">
+            <img src="img/index/yuehuaju.jpg">
+            <h3>悦如水剧社</h3>
+            <p class="contains" > 悦如水儿童话剧教育专注培养少年儿童的多元思维能力及综合艺术表现能力，从智慧阅读、话剧创作和表演技能开始，通过舞台话剧表演的形式展开综合性的教育活动，实现从静态阅读到动态阅读,从平面阅读到立体阅读的迈进,尊重少儿自身成长的发展规律，综合提升少儿的阅读能力、创作能力、感受力、表现力、理解力、动手能力和团队合作精神, 从而全面提升孩子的综合素养.</p>
+            </a>
+        </div>
+
+    <div class="col-md-2 dd col-lg-offset-1">
+
+        <img src="img/index/shahua.jpg"/>
+        <h3>悦如水沙画教育</h3>
+        <p class="contains">悦如水沙画教育集绘画、表演、音乐、文学为一体，契合了少儿喜爱玩泥沙的天性,让少儿在玩沙学画的游戏乐趣中增长文化知识</p>
+        </a>
+    </div>
+    <div class=" col-md-2 dd col-lg-offset-1 ">
+        <a href="">
+        <img src="img/index/chuangke.jpg"/>
+        <h3>悦如水创客英语</h3>
+        <p class="contains">悦如水创客英语教育是引进北京快乐英链国际文化交流有限公司研究开发出来的一套课程体系。它“博大精深、寓意深刻”的教材体系,“化繁为简、点石成金”的教学方法, 非常适合中国人快速学习英语.</p>
+        </a>
+    </div>
+</div>
 
 
+<script >
+
+    $(document).ready(function(){
+        dropdownOpen();//调用
+    });
+    /**
+     * 鼠标划过就展开子菜单，免得需要点击才能展开
+     */
+    function dropdownOpen() {
+
+        var $dropdownLi = $('li.dropdown');
+
+        $dropdownLi.mouseout(function() {
+            $(this).removeClass('open');
+
+        });
+    }
+
+</script>
 </body>
 </html>

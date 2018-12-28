@@ -1,10 +1,9 @@
 .navbar {
     margin-top: 20px;
-    padding-left: 120px;
+    padding-left: 120px ;
     background-color:white;
     border: white;
 }
-
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
     color: #4cae4c;
     background-color: transparent;
@@ -12,7 +11,7 @@
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
     color: #555;
-    background-color: #e7e7e7;
+    background-color:white;
 }
 .navbar-default .navbar-nav > li > a {
     color: black ;
@@ -56,5 +55,107 @@
     line-height: 0;
     aria-expanded:"false"
 }
+
+.carousel {
+    height: 500px;
+}
+.carousel .item {
+    height: 500px;
+}
+.carousel .item img {
+    width: 100%;
+    height: 500px;
+}
+.carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom:150px;
+}
+
+元素 {
+
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+
+    margin-left: -15px;
+
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    border-radius: 40px;
+    background-color: grey;
+    width:60px;
+    height: 50px;
+    padding: 10px;
+    margin-top: -15px;
+    font-size: 30px;
+
+
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: -15px;
+
+}
+.main-title{
+    font-size: 50px;
+    color:rgba(61, 198, 182, 0.12);
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-top: -40px;
+}
+.myinline{
+    width: 20px;
+    height: 2px;
+    text-align: center;
+}
+.lessline{
+    width: 50px;
+    border: 1px solid black;
+}
+.col-md-2{
+    padding-left:20px;
+}
+.row{
+    padding-left:80px;
+}
+.h3, h3 {
+    font-size: 18px;
+    color:black;
+
+}
+.col-md-2,h3:hover{
+    color: #4cae4c;
+}
+a {
+    text-decoration: none !important;
+}
+
+
+.contains{
+    text-align: justify;
+    width:270px;
+    color:grey;
+    position: relative;
+    line-height: 30px;
+    height: 90px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+  /*  text-overflow: ellipsis ;//溢出用省略号显示
+    overflow: hidden;//超过文本隐藏
+    white-space: nowrap;//溢出不换行
+    display:-webkit-box  ;//弹性伸缩盒 子模型
+    -webkit-box-orient:vertical ;//从上到下垂直排列元素
+    -webkit-line-clamp:3 ;*/
+}
+
+ .contains:after {
+      bottom: 0;
+      right: 0;
+      content: "...";
+      padding: 0 -40px 0 0;
+      position: absolute;
+  }
+
 
 
